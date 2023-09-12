@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+} 
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.margin-left-right {
+    margin: 0px 50px;
+}
+.margin-top-bottom {
+    margin: 50px 0px 0px 0px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #cecbcb;
+}
+
+/* =============================== HOME ================================= */
+
+#navigation-bar {
+    margin: 0px;
+    display: flex;
+    font-size: 20px;
+    color: cadetblue;
+    background-color: #40a0a073;
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+#navigation-bar a {
+    padding-top: 40px;
+    color: #f0ae20;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding-left: 70px;
+}
+
+#navigation-bar a:hover {
+    color: #00ccff;
+}
+
+#navigation-bar .active {
+    color: #00ccff;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+#navigation-bar input, #navigation-bar button {
+    height: 47px;
+    margin-top: 30px;
+    border: 1px solid #beb9b9;
+}
+
+#navigation-bar input {
+    outline: none;
+    width: 45%;
+    font-size: 16px;
+    padding-left: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 20px;
+}
+
+#navigation-bar button {
+    background-color: #ece8e8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+#navigation-bar button:hover {
+    cursor: pointer;
+    background-color: #c4bebe;
+}
+
+#navigation-bar button:active::after {
+    background-color: #c4bebe;
+}
+
+#Home-page-sec-1 {
+    background-image: url(images/background/btn-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+}
+
+#Home-page-sec-1 .aside-left, #Home-page-sec-1 .aside-right {
+    width: 20%;
+    height: 600px;
+    padding: 20px;
+    border: 1px solid #8a8686;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+#Home-page-sec-1 .aside-left{
+    margin: 120px 700px 0 20px;
+}
+
+#Home-page-sec-1 .aside-right {
+    margin: 120px 20px 0 0;
+}
+
+#Home-page-banner1 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    height: 130px;
+    max-height: 150px;
+    padding: 80px 60px;
+    background-image: url(images/background/jake-blucker-tMzCrBkM99Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Home-page-banner1 .banner1-text {
+    width: 38%;
+    height: 100%;
+}
+
+#Home-page-banner1 .banner1-text h3 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Home-page-banner1 .banner1-text p {
+    font-size: 16px;
+    color: #fff;
+}  
+
+#Home-page-banner1 .newsletter-form {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#Home-page-banner1 .newsletter-form input {
+    outline: none;
+    width: 80%;
+    height: 20px;
+    border: 1px solid #c4bebe;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 15px 5px;
+    font-size: 16px;
+}
+
+#Home-page-banner1 .newsletter-form button {
+    width: 25%;
+    height: 52px;
+    padding: 15px 5px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #00ccff;
+    outline: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid #c4bebe;
+}
+#Home-page-banner1 .newsletter-form button:hover {
+    background-color: #73e2fd;
+}
+
+
+#Footer {
+    background-color: rgb(134, 131, 131);
+    padding-top: 40px;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#footer-content .find-us h4 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+#footer-content .find-us {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-content .find-us .footer-content a, #footer-content .find-us .footer-content p{
+    padding-bottom: 5px;
+}
+
+#footer-content a {
+    display: block;
+}
+#footer-download-images a {
+    display: initial;
+}
+
+#footer-download-images a img {
+    border-radius: 7px;
+}
+
+#copywrite {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#copywrite p {
+    padding-top: 4px;
+}
+
+/* =================================SIGN-UP-PAGE ================================== */
+main {
+    height: 700px;
+}
+
+#sign-up-page {
+    border: 1px solid #cecbcb;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 450px 30px 450px;
+    padding: 50px;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 5px 5px 5px #c5c4c4;
+}
+
+#sign-up-page h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #000;
+}
+
+#sign-up-page form input, #sign-up-page form label {
+    display: block;
+    width: 100%;
+}
+
+#sign-up-page form label {
+    padding: 20px 0 0 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sign-up-page form input {
+    padding: 10px 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#sign-up-button {
+    background-color: #00ccff;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin-top: 7px;
+    border: 1px solid #c5c4c4;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#sign-up-button:hover {
+    background-color: #67e1ff;
+}
+
+main a.have-an-account {
+    padding: 5px 0px 60px 600px;
+    color: #00ccff;
+}
